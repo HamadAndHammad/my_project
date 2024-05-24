@@ -131,7 +131,7 @@ git push origin feature-1
 **Explanation:** This pushes the `feature-1` branch to GitHub.
 
 ### Screenshot
-![Push feature-1 to GitHub](path_to_push_feature_1_to_github_screenshot)
+![Push feature-1 to GitHub](<Screenshot 2024-05-24 at 5.36.04 PM.png>)
 
 ## Step 5: Collaboration Simulation
 
@@ -143,7 +143,7 @@ git checkout bugfix-1
 **Explanation:** Creates and switches to the `bugfix-1` branch.
 
 ### Screenshot
-![Create and switch to bugfix-1 branch](path_to_create_and_switch_to_bugfix_1_branch_screenshot)
+![Create and switch to bugfix-1 branch](<Screenshot 2024-05-24 at 4.32.49 PM.png>)
 
 ### Simulate a bug fix
 ```python
@@ -159,7 +159,7 @@ git commit -m "Fix typo in print_name function"
 **Explanation:** This corrects a typo, stages the changes, and commits them.
 
 ### Screenshot
-![Simulate bug fix](path_to_simulate_bug_fix_screenshot)
+![Simulate bug fix](<Screenshot 2024-05-24 at 4.32.26 PM.png>)
 
 ### Push the `bugfix-1` branch to the remote repository
 ```bash
@@ -168,19 +168,22 @@ git push origin bugfix-1
 **Explanation:** This pushes the `bugfix-1` branch to GitHub.
 
 ### Screenshot
-![Push bugfix-1 to GitHub](path_to_push_bugfix_1_to_github_screenshot)
+![Push bugfix-1 to GitHub](<Screenshot 2024-05-24 at 4.32.49 PM-1.png>)
 
 ### Open a pull request on GitHub to merge `bugfix-1` into `main`
 - Go to GitHub, open a pull request from `bugfix-1` to `main`.
 
 ### Screenshot
-![Open pull request](path_to_open_pull_request_screenshot)
+![Pull Request](<Screenshot 2024-05-24 at 4.34.44 PM.png>)
+![Open pull request](<Screenshot 2024-05-24 at 4.34.53 PM.png>)
 
 ### Complete the pull request
 - Merge the pull request on GitHub.
 
 ### Screenshot
-![Complete pull request](path_to_complete_pull_request_screenshot)
+![Pull Request](<Screenshot 2024-05-24 at 4.35.09 PM.png>)
+![Confirm Pull Request](<Screenshot 2024-05-24 at 4.35.15 PM.png>)
+![Complete pull request](<Screenshot 2024-05-24 at 4.35.21 PM.png>)
 
 ## Step 6: History and Reversion
 
@@ -191,7 +194,7 @@ git log
 **Explanation:** The `git log` command shows a list of commits in the current branch, with each commit's unique hash, author, date, and commit message. This helps you review the history of changes in your project.
 
 ### Screenshot
-![View commit history](path_to_view_commit_history_screenshot)
+![View commit history](<Screenshot 2024-05-24 at 4.45.24 PM.png>)
 
 ### Reverting the Last Commit
 ```bash
@@ -201,7 +204,8 @@ git revert HEAD
 **Explanation:** The `git revert HEAD` command creates a new commit that undoes the changes introduced by the most recent commit (`HEAD`). This is useful if you realize that the last commit introduced a mistake or an unwanted change.
 
 ### Screenshot
-![Revert last commit](path_to_revert_last_commit_screenshot)
+![Revert last commit](<Screenshot 2024-05-24 at 4.47.26 PM.png>)
+![Done](<Screenshot 2024-05-24 at 4.47.36 PM.png>)
 
 ### Undoing the Revert
 ```bash
@@ -210,7 +214,7 @@ git reset --hard HEAD~1
 **Explanation:** The `git reset --hard HEAD~1` command moves the current branch pointer and the working directory to the previous commit, effectively removing the revert commit and restoring the project to its state before the revert.
 
 ### Screenshot
-![Undo revert](path_to_undo_revert_screenshot)
+![Undo revert](<Screenshot 2024-05-24 at 4.48.37 PM.png>)
 
 ### Issues Encountered
 
@@ -218,8 +222,3 @@ git reset --hard HEAD~1
 - The commands executed successfully, and the changes were reflected as expected.
 
 
-### Instructions:
-1. Replace the placeholder `path_to_*_screenshot` with the actual paths to your screenshots.
-2. Ensure all explanations and screenshots are correctly added.
-3. Save and commit your `Git_Assignment_Report.md` file.
-4. Push the changes to your GitHub repository.
